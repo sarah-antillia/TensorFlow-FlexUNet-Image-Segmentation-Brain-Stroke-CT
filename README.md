@@ -162,7 +162,7 @@ created under <b>dataset</b> folder as shown below.<b></b>.
 <b>Brain-Stroke-CT Statistics</b><br>
 <img src ="./projects/TensorFlowFlexUNet/Brain-Stroke-CT/Brain-Stroke-CT_Statistics.png" width="512" height="auto"><br>
 <br>
-As shown above, the number of images of train and valid datasets is large enough to use for a training set of our segmentation model.
+As shown above, the number of images of train and valid datasets is not so large to use for a training set of our segmentation model.
 <br><br>
 <b>You may not redistribute this training dataset generated from 
 <a href="https://www.kaggle.com/datasets/ozguraslank/brain-stroke-ct-dataset/data">Brain_Stroke_CT_Dataset</a>, and 
