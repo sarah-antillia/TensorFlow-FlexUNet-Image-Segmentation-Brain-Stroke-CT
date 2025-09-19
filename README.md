@@ -220,7 +220,7 @@ image_width    = 512
 image_height   = 512
 image_channels = 3
 
-num_classes    = 2
+num_classes    = 3
 
 base_filters   = 16
 base_kernels   = (9,9)
