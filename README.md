@@ -270,7 +270,7 @@ patience      = 10
 </pre>
 
 <b>RGB Color map</b><br>
-rgb color map dict for Brain-Stroke-CT 1+1 classes.
+rgb color map dict for Brain-Stroke-CT 1+2 classes.
 <pre>
 [mask]
 mask_datatype    = "categorized"
