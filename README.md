@@ -206,7 +206,7 @@ Please move to ./projects/TensorFlowFlexUNet/Brain-Stroke-CTand, and run the fol
 </pre>
 , which simply runs the following command.<br>
 <pre>
->python ../../../src/TensorFlowUNetTrainer.py ./train_eval_infer.config
+>python ../../../src/TensorFlowFlexUNetTrainer.py ./train_eval_infer.config
 </pre>
 <hr>
 
@@ -241,7 +241,7 @@ learning_rate  = 0.00005
 Disabled our online augmentation.  
 <pre>
 [model]
-model         = "TensorFlowUNet"
+model         = "TensorFlowFlexUNet"
 generator     = False
 </pre>
 
@@ -331,7 +331,7 @@ and run the following bat file to evaluate TensorFlowUNet model for Brain-Stroke
 </pre>
 This bat file simply runs the following command.
 <pre>
-python ../../../src/TensorFlowUNetEvaluator.py ./train_eval_infer.config
+python ../../../src/TensorFlowFlexUNetEvaluator.py ./train_eval_infer.config
 </pre>
 
 Evaluation console output:<br>
@@ -357,7 +357,7 @@ Please move to a <b>./projects/TensorFlowFlexUNet/Brain-Stroke-CT</b> folder<br>
 </pre>
 This simply runs the following command.
 <pre>
-python ../../../src/TensorFlowUNetInferencer.py ./train_eval_infer.config
+python ../../../src/TensorFlowFlexUNetInferencer.py ./train_eval_infer.config
 </pre>
 <hr>
 <b>mini_test_images</b><br>
